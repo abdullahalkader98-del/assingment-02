@@ -469,11 +469,55 @@ hr {
     padding-top: 50px;
 }
 
-@media screen and (max-width: 576px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+@media screen and (min-width: 576.1px) {
+    .hamburger-menu {
+        display: none;
     }
-    
+
+}
+
+@media screen and (max-width: 576px) {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logoWave {
+        font-size: 28px;
+    }
+
+    .logoTeach {
+        font-size: 28px;
+    }
+
+    .nav-links,
+    .subscribe-button {
+        display: none;
+    }
+
+    .back {
+        background-image: url(assets/hero-bg.png);
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+   .back {
+    height: 410px;  
+  }
+
+
+    .maintaining-2 {
+    width: 180px;    
+    height: 180px;
+    transform: translateX(0) translateY(0); 
+  }
+
+    .maintaining-3 {
+    transform: translateX(0) translateY(0); 
+    width: 70px;   
+  }
+
+
 }
