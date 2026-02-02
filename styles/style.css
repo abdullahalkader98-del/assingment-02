@@ -364,10 +364,8 @@ hr {
 .host {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 1110px;
     height: 320px;
-    /* padding-top: 20px; */
     background-color: #351165;
     border-radius: 40px;
 }
@@ -474,6 +472,17 @@ hr {
         display: none;
     }
 
+    .host {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 1110px;
+        height: 320px;
+        /* padding-top: 20px; */
+        background-color: #351165;
+        border-radius: 40px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -503,21 +512,106 @@ hr {
         background-size: cover;
     }
 
-   .back {
-    height: 410px;  
-  }
+    .back {
+        height: 410px;
+    }
 
 
     .maintaining-2 {
-    width: 180px;    
-    height: 180px;
-    transform: translateX(0) translateY(0); 
-  }
+        width: 180px;
+        height: 180px;
+        transform: translateX(0) translateY(0);
+    }
 
     .maintaining-3 {
-    transform: translateX(0) translateY(0); 
-    width: 70px;   
-  }
+        transform: translateX(0) translateY(0);
+        width: 70px;
+    }
+
+    .only-text {
+        transform: translateX(8.5%);
+        width: 400px;
+        height: 200px;
+
+    }
+
+    .only-text h2 {
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .only-text {
+        line-height: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .tamasha {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9px;
+
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid-contant {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* .video h3{
+        color: #FFFFFF;
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    .video p{
+        font-size: 14px;
+        color: #FFFFFF;
+    } */
+    .flex {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+  
+
+    .tl h3 {
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .tl p {
+        padding-top: 10px;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .host {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 380px;
+        height: 450px;
+        background-color: #351165;
+        border-radius: 40px;
+    }
+    .host img {
+    padding-top: 4px ;
+    /* margin-top: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 }
